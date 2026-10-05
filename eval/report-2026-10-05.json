@@ -1,0 +1,130 @@
+{
+ "posts": 300,
+ "labelled": 300,
+ "reference": {
+  "selected": 32,
+  "important": 14,
+  "cost": {
+   "usd": 1.731,
+   "sec": 140.4,
+   "in": 269388,
+   "out": 9030,
+   "calls": 12,
+   "model": "claude-opus-5-5"
+  }
+ },
+ "variants": {
+  "small-filter-run0": {
+   "selected": 33,
+   "precision": 0.576,
+   "recall": 0.594,
+   "f1": 0.585,
+   "important_recall": 0.643,
+   "cost": {
+    "usd": 0.2087,
+    "sec": 141.9,
+    "in": 91262,
+    "out": 12455,
+    "calls": 2,
+    "model": "claude-haiku-4-5-20251001"
+   }
+  },
+  "small-filter-run1": {
+   "selected": 52,
+   "precision": 0.442,
+   "recall": 0.719,
+   "f1": 0.548,
+   "important_recall": 0.714,
+   "cost": {
+    "usd": 0.1525,
+    "sec": 156.4,
+    "in": 91244,
+    "out": 15193,
+    "calls": 2,
+    "model": "claude-haiku-4-5-20251001"
+   }
+  },
+  "large-filter": {
+   "selected": 33,
+   "precision": 0.727,
+   "recall": 0.75,
+   "f1": 0.738,
+   "important_recall": 0.714,
+   "cost": {
+    "usd": 0.9094,
+    "sec": 100.4,
+    "in": 100211,
+    "out": 10538,
+    "calls": 2,
+    "model": "claude-opus-5-5"
+   }
+  },
+  "cascade": {
+   "filter_cost": {
+    "usd": 0.2087,
+    "sec": 141.9,
+    "in": 91262,
+    "out": 12455,
+    "calls": 2,
+    "model": "claude-haiku-4-5-20251001"
+   },
+   "writer_cost": {
+    "usd": 0.1119,
+    "sec": 20.9,
+    "in": 15475,
+    "out": 1977,
+    "calls": 1,
+    "model": "claude-opus-5-5"
+   },
+   "total_usd": 0.3206,
+   "total_sec": 162.8,
+   "important_links_in_text": "9/14",
+   "chars": 2412
+  },
+  "all-small": {
+   "filter_cost": {
+    "usd": 0.2087,
+    "sec": 141.9,
+    "in": 91262,
+    "out": 12455,
+    "calls": 2,
+    "model": "claude-haiku-4-5-20251001"
+   },
+   "writer_cost": {
+    "usd": 0.0797,
+    "sec": 111.1,
+    "in": 19136,
+    "out": 11886,
+    "calls": 1,
+    "model": "claude-haiku-4-5-20251001"
+   },
+   "total_usd": 0.2884,
+   "total_sec": 253.0,
+   "important_links_in_text": "6/14",
+   "chars": 2047
+  },
+  "all-large": {
+   "filter_cost": {
+    "usd": 0.9094,
+    "sec": 100.4,
+    "in": 100211,
+    "out": 10538,
+    "calls": 2,
+    "model": "claude-opus-5-5"
+   },
+   "writer_cost": {
+    "usd": 0.1966,
+    "sec": 36.8,
+    "in": 21676,
+    "out": 3735,
+    "calls": 1,
+    "model": "claude-opus-5-5"
+   },
+   "total_usd": 1.106,
+   "total_sec": 137.2,
+   "important_links_in_text": "8/14",
+   "chars": 2764
+  }
+ },
+ "small_filter_run_overlap": 0.417
+}
